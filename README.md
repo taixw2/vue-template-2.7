@@ -1,6 +1,16 @@
 # Vue template 2.7
 
-> A Vue.js project
+> Using the vue 2.7 version of the template
+
+![Vue Template 2.7](screenshot.png "Vue Template 2.7")
+
+## Get Start
+
+```bash
+vue init -c taixw2/vue-template-2.7 my-project
+# or
+git clone https://github.com/taixw2/vue-template-2.7 my-project
+```
 
 ## Build Setup
 
@@ -17,3 +27,4 @@ npm run build
 # build for production and view the bundle analyzer report
 npm run build --report
 ```
+
