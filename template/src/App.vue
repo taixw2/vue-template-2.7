@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="/logo.png" />
+    <img src="@/assets/vue.svg" class="mx-auto w-64 mb-4" />
     <HelloWorld msg="Welcome to Your Vue.js + TypeScript App" />
     <CompositionApi />
     <OptionsVersion />

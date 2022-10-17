@@ -1,41 +1,27 @@
 {
-  "name": "vue-template-2.7",
-  "version": "1.0.0",
+  "name": "ui3",
   "private": true,
-  "description": "A Vue.js project",
-  "author": "Xin Ouyang <fex@0000o.net>",
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "build": "vue-cli-service build",
-    "dev": "vue-cli-service serve",
-    "start": "npm run dev"
+    "start": "vite",
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview"
   },
   "dependencies": {
-    "vue": "^2.7.0",
+    "vue": "^2.7.1",
     "vue-class-component": "^7.2.3",
     "vue-property-decorator": "^9.1.2"
   },
   "devDependencies": {
-    "@vue/cli-service": "4",
-    "@vue/cli-plugin-typescript": "~5.0.0",
-    "autoprefixer": "^7.1.2",
-    "@babel/core": "^7.0.0",
-    "babel-loader": "^8.2.5",
-    "@vue/babel-preset-app": "^5.0.6",
-    "postcss-import": "^11.0.0",
-    "postcss-loader": "^2.0.8",
-    "postcss-url": "^7.2.1",
-    "typescript": "^4.7.4"
-  },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not ie <= 8"
-  ],
-  "engines": {
-    "node": ">= 6.0.0",
-    "npm": ">= 3.0.0"
-  },
-  "resolutions": {
-    "ts-loader": "8.2.0"
+    "@types/node": "^18.11.0",
+    "@vitejs/plugin-vue2": "^2.0.0",
+    "autoprefixer": "^10.4.12",
+    "postcss": "^8.4.18",
+    "tailwindcss": "^3.1.8",
+    "typescript": "^4.6.4",
+    "vite": "^3.1.0",
+    "vue-tsc": "^1.0.8"
   }
 }
